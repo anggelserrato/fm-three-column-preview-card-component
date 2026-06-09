@@ -15,3 +15,52 @@
   font-weight: 700;
   src: url('./fonts/big-shoulders-v4-latin-700.woff2') format('woff2');
 }
+
+@theme {
+  --color-white: hsl(0, 100%, 100%);
+  --color-black: hsl(0, 0%, 0%);
+  --color-gray-100: hsl(0, 0%, 95%);
+  --color-green-950: hsl(179, 100%, 13%);
+  --color-green-500: hsl(170, 76%, 41%);
+  --color-cyan-800: hsl(184, 100%, 22%);
+  --color-cyan-500: hsl(184, 67%, 45%);
+  --color-gold-500: hsl(31, 77%, 52%);
+  --color-gold-200: hsl(42, 100%, 73%);
+  --font-sans:
+    'Lexend Deca', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-serif:
+    'Big Shoulders', ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+  --spacing-card-100: 0.5rem; /* 8px */
+  --spacing-card-300: 1.5rem; /* 24px */
+  --spacing-card-400: 2rem; /* 32px */
+  --spacing-card-500: 2.5rem; /* 40px */
+  --spacing-card-600: 3rem; /* 48px */
+  --spacing-card-1000: 5rem; /* 80px */
+}
+
+@layer base {
+  html {
+    @apply antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    background-color: var(--color-gray-100);
+  }
+}
+
+@utility text-preset-1 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  letter-spacing: 0px;
+}
+
+@utility text-preset-2 {
+  font-family: var(--font-sans);
+  font-weight: 400;
+  font-size: 0.938rem;
+  line-height: 1.65;
+  letter-spacing: 0px;
+}
