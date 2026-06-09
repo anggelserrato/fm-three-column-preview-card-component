@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<img width="1920" height="1440" alt="three column preview card component shots" src="https://github.com/user-attachments/assets/abf31d42-47f7-4607-be52-8d344748a1d3" />
 
 ### Links
 
