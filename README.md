@@ -38,10 +38,8 @@ Users should be able to:
 - Semantic HTML5 markup
 - Mobile-first workflow
 - CSS custom properties (used in `@theme`)
-- Flexbox
-- [Tailwind CSS v4](https://tailwindcss.com/) - via CDN browser build (`@tailwindcss/browser`)
-- Vanilla JavaScript - For the share menu toggle logic
-- [Google Fonts](https://fonts.google.com/) - Manrope typeface
+- [Tailwind CSS v4](https://tailwindcss.com/)
+- [Google Fonts](https://fonts.google.com/)
 - [Prettier](https://prettier.io/) - For consistent code formatting
 - [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) - For Tailwind class sorting
 
